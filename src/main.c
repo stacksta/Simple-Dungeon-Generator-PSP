@@ -80,14 +80,15 @@ int main(void)
 			} 
 		}
 
+		
+		//reload results in crash
+// 		sprintf(text,"No. of Rooms %d", noOfRooms);
+// 		intraFontSetStyle(font, 1.f, WHITE, 0, 0, INTRAFONT_ALIGN_LEFT);
+// 		intraFontPrintf(font, 5, 20, text);
 
-		sprintf(text,"No. of Rooms %d", noOfRooms);
-		intraFontSetStyle(font, 1.f, WHITE, 0, 0, INTRAFONT_ALIGN_LEFT);
-		intraFontPrintf(font, 5, 20, text);
-
-		sprintf(instructions,"Press SELECT to generate new dungeon");
-		intraFontSetStyle(font, 0.5f, WHITE, 0, 0, INTRAFONT_ALIGN_LEFT);
-		intraFontPrintf(font, 250, 100, instructions);
+// 		sprintf(instructions,"Press SELECT to generate new dungeon");
+// 		intraFontSetStyle(font, 0.5f, WHITE, 0, 0, INTRAFONT_ALIGN_LEFT);
+// 		intraFontPrintf(font, 250, 100, instructions);
 
 		for(int i=0;i < ROWS;i++)
 		{
